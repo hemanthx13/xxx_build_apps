@@ -1,11 +1,11 @@
 import os
 import requests
-
 from dotenv import load_dotenv
 
+dotenv_path = '../.env'
 load_dotenv()
+
 api_key = os.getenv('NEWS_API_KEY')
-#api_key = 'a5ffbfe368c44488b1701bcdf8d5bb92'  # Get your free key from newsapi.org
 url = 'https://newsapi.org/v2/top-headlines'
 params = {
     'country': 'us',   # Fetch news from the US

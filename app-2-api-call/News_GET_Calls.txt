@@ -1,0 +1,16 @@
+
+
+All articles mentioning Apple from yesterday, sorted by popular publishers first
+GET: https://newsapi.org/v2/everything?q=apple&from=2025-11-26&to=2025-11-26&sortBy=popularity&apiKey=a5ffbfe368c44488b1701bcdf8d5bb92
+
+All articles about Tesla from the last month, sorted by recent first
+GET: https://newsapi.org/v2/everything?q=tesla&from=2025-10-27&sortBy=publishedAt&apiKey=a5ffbfe368c44488b1701bcdf8d5bb92
+
+Top business headlines in the US right now
+GET: https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=a5ffbfe368c44488b1701bcdf8d5bb92
+
+Top headlines from TechCrunch right now
+GET: https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=a5ffbfe368c44488b1701bcdf8d5bb92
+
+
+
