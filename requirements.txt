@@ -2,3 +2,4 @@ fpdf
 pandas
 requests
 dotenv
+streamlit
